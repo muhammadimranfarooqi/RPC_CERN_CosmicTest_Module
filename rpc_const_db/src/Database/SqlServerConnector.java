@@ -19,10 +19,7 @@ public class SqlServerConnector {
        
        
 
-//      public static String dbname = "rpct-masking";
-//      public static String username = "hr";
-//      public static String passwd = "test";
-       
+      
         public static Connection con = null;
        
          public SqlServerConnector() {
