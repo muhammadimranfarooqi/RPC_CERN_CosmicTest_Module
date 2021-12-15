@@ -83,7 +83,7 @@
 	FileRename f = new FileRename();
 	String body="";
 	MultipartRequest mrequest = new MultipartRequest(request,Controller.getTempDirectory(),20*1021*1024,f);
-	tring filename = mrequest.getFilesystemName("file");
+	String filename = mrequest.getFilesystemName("file");
 	String url = mrequest.getParameter("test1");
 	String test_set = mrequest.getParameter("test_set_txt");
 	File file = mrequest.getFile("file");
